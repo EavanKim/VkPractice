@@ -1,0 +1,152 @@
+﻿빌드 시작: 11/4/2020 8:01:28 PM
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "D:\GitHub\VkPractice\EW_Engine_Vk\EW_Engine_Vk.vcxproj" 프로젝트(Build 대상)입니다.
+     1>PrepareForBuild:
+         "D:\GitHub\VkPractice\x64\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "x64\Debug\EW_Engine_Vk.tlog\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I"C:\VulkanSDK\1.2.131.2\Third-Party\stb-master" /ID:\GitHub\VkPractice\GV /IC:\VulkanSDK\1.2.131.2\Include /IC:\glm /I"C:\glfw-3.3.2.bin.WIN32\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>D:\GitHub\VkPractice\GV\Graphic.h(85,50): warning C4251: 'Graphic_Vulkan::validationLayers': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(71): message : 'std::vector<const char *,std::allocator<const char *>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(143,50): warning C4251: 'Graphic_Vulkan::deviceExtensions': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(71): message : 'std::vector<const char *,std::allocator<const char *>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(168,40): warning C4251: 'Graphic_Vulkan::m_SwapChainImages': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(180,48): warning C4251: 'Graphic_Vulkan::m_SwapChainImageViews': class 'std::vector<VkImageView,std::allocator<VkImageView>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(180): message : 'std::vector<VkImageView,std::allocator<VkImageView>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(216,52): warning C4251: 'Graphic_Vulkan::m_SwapChainFramebuffers': class 'std::vector<VkFramebuffer,std::allocator<VkFramebuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(216): message : 'std::vector<VkFramebuffer,std::allocator<VkFramebuffer>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(227,47): warning C4251: 'Graphic_Vulkan::m_CommandBuffers': class 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(227): message : 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(238,53): warning C4251: 'Graphic_Vulkan::m_ImageAvailableSemaphores': class 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(238): message : 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(239,53): warning C4251: 'Graphic_Vulkan::m_RenderFinishedSemaphores': class 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(238): message : 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(240,39): warning C4251: 'Graphic_Vulkan::m_InfFlightFence': class 'std::vector<VkFence,std::allocator<VkFence>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(240): message : 'std::vector<VkFence,std::allocator<VkFence>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(241,39): warning C4251: 'Graphic_Vulkan::m_ImagesInFlight': class 'std::vector<VkFence,std::allocator<VkFence>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(240): message : 'std::vector<VkFence,std::allocator<VkFence>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(304,40): warning C4251: 'Graphic_Vulkan::m_UniformBuffers': class 'std::vector<VkBuffer,std::allocator<VkBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(304): message : 'std::vector<VkBuffer,std::allocator<VkBuffer>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(305,52): warning C4251: 'Graphic_Vulkan::m_UniformBuffersMemory': class 'std::vector<VkDeviceMemory,std::allocator<VkDeviceMemory>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(305): message : 'std::vector<VkDeviceMemory,std::allocator<VkDeviceMemory>>' 선언을 참조하십시오.
+     1>D:\GitHub\VkPractice\GV\Graphic.h(309,47): warning C4251: 'Graphic_Vulkan::m_DescriptorSets': class 'std::vector<VkDescriptorSet,std::allocator<VkDescriptorSet>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       D:\GitHub\VkPractice\GV\Graphic.h(309): message : 'std::vector<VkDescriptorSet,std::allocator<VkDescriptorSet>>' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\VkPractice\x64\Debug\EW_Engine_Vk.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\GitHub\VkPractice\Debug /LIBPATH:C:\VulkanSDK\1.2.131.2\Lib32 /LIBPATH:"C:\glfw-3.3.2.bin.WIN32\lib-vc2019" GV.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\GitHub\VkPractice\x64\Debug\EW_Engine_Vk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\VkPractice\x64\Debug\EW_Engine_Vk.lib" /MACHINE:X64 x64\Debug\Main.obj
+     1>GV.lib(GV.dll) : fatal error LNK1112: 'x86' 모듈 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+     1>"D:\GitHub\VkPractice\EW_Engine_Vk\EW_Engine_Vk.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+프로젝트 성능 요약:
+     2554ms  D:\GitHub\VkPractice\EW_Engine_Vk\EW_Engine_Vk.vcxproj   1회 호출
+               2554ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  BuildGenerateSources                       1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  BeforeClCompile                            1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  CheckInstalledVCLibsIPP                    1회 호출
+        0ms  PreLinkEvent                               1회 호출
+        0ms  AfterClCompile                             1회 호출
+        0ms  _ClCompile                                 1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
+        0ms  MakeDirsForResourceCompile                 1회 호출
+        0ms  AfterResourceCompile                       1회 호출
+        0ms  _ResourceCompile                           1회 호출
+        0ms  AfterBuildCompileEvent                     1회 호출
+        0ms  PrepareResourceNames                       1회 호출
+        0ms  CreateCustomManifestResourceNames          1회 호출
+        0ms  AssignTargetPaths                          1회 호출
+        0ms  ComputeManifestInputsTargets               1회 호출
+        0ms  ComputeLinkInputsFromProject               1회 호출
+        0ms  ComputeCLGeneratedLinkInputs               1회 호출
+        0ms  _Midl                                      1회 호출
+        0ms  ComputeCLOutputs                           1회 호출
+        0ms  ComputeRCGeneratedLinkInputs               1회 호출
+        0ms  ComputeRCOutputs                           1회 호출
+        0ms  BeforeLink                                 1회 호출
+        0ms  BuildLinkTraverse                          1회 호출
+        0ms  BuildCompile                               1회 호출
+        0ms  _BuildCompileAction                        1회 호출
+        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
+        0ms  AfterMidl                                  1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        0ms  GetResolvedWinMD                           1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  BuildGenerateSourcesTraverse               1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  DoLinkOutputFilesMatch                     1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  PreBuildEvent                              1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        1ms  CopyFileToFolders                          1회 호출
+        1ms  _CheckWindowsSDKInstalled                  1회 호출
+        1ms  _SplitProjectReferencesByFileExistence     1회 호출
+        1ms  SplitResourcesByCulture                    1회 호출
+        1ms  MakeDirsForLink                            1회 호출
+        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  ComputeLegacyManifestEmbedding             1회 호출
+        1ms  _PrepareForBuild                           1회 호출
+        1ms  GetReferenceAssemblyPaths                  1회 호출
+        1ms  FixupCLCompileOptions                      1회 호출
+        2ms  ComputeLinkSwitches                        1회 호출
+        2ms  AssignProjectConfiguration                 1회 호출
+        3ms  WarnCompileDuplicatedFilename              1회 호출
+        3ms  InitializeBuildStatus                      1회 호출
+        4ms  MakeDirsForCl                              1회 호출
+        5ms  CustomBuild                                1회 호출
+        8ms  SetTelemetryEnvironmentVariables           1회 호출
+       15ms  SetCABuildNativeEnvironmentVariables       1회 호출
+       17ms  ResolveProjectReferences                   1회 호출
+       20ms  PrepareForBuild                            1회 호출
+       20ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+      229ms  Link                                       1회 호출
+     2210ms  ClCompile                                  1회 호출
+
+빌드하지 못했습니다.
+
+       "D:\GitHub\VkPractice\EW_Engine_Vk\EW_Engine_Vk.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         D:\GitHub\VkPractice\GV\Graphic.h(85,50): warning C4251: 'Graphic_Vulkan::validationLayers': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(143,50): warning C4251: 'Graphic_Vulkan::deviceExtensions': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(168,40): warning C4251: 'Graphic_Vulkan::m_SwapChainImages': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(180,48): warning C4251: 'Graphic_Vulkan::m_SwapChainImageViews': class 'std::vector<VkImageView,std::allocator<VkImageView>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(216,52): warning C4251: 'Graphic_Vulkan::m_SwapChainFramebuffers': class 'std::vector<VkFramebuffer,std::allocator<VkFramebuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(227,47): warning C4251: 'Graphic_Vulkan::m_CommandBuffers': class 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(238,53): warning C4251: 'Graphic_Vulkan::m_ImageAvailableSemaphores': class 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(239,53): warning C4251: 'Graphic_Vulkan::m_RenderFinishedSemaphores': class 'std::vector<VkSemaphore,std::allocator<VkSemaphore>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(240,39): warning C4251: 'Graphic_Vulkan::m_InfFlightFence': class 'std::vector<VkFence,std::allocator<VkFence>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(241,39): warning C4251: 'Graphic_Vulkan::m_ImagesInFlight': class 'std::vector<VkFence,std::allocator<VkFence>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(304,40): warning C4251: 'Graphic_Vulkan::m_UniformBuffers': class 'std::vector<VkBuffer,std::allocator<VkBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(305,52): warning C4251: 'Graphic_Vulkan::m_UniformBuffersMemory': class 'std::vector<VkDeviceMemory,std::allocator<VkDeviceMemory>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         D:\GitHub\VkPractice\GV\Graphic.h(309,47): warning C4251: 'Graphic_Vulkan::m_DescriptorSets': class 'std::vector<VkDescriptorSet,std::allocator<VkDescriptorSet>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+
+
+       "D:\GitHub\VkPractice\EW_Engine_Vk\EW_Engine_Vk.vcxproj"(Build 대상)(1) ->
+       (Link 대상) -> 
+         GV.lib(GV.dll) : fatal error LNK1112: 'x86' 모듈 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+
+    경고 13개
+    오류 1개
+
+경과 시간: 00:00:02.55

@@ -1,0 +1,27 @@
+#ifndef EWENUM_H__
+#define EWENUM_H__
+
+enum EW_TYPE_FLAG
+{
+	EW_NONE
+	, EW_VK
+	, EW_SW
+};
+
+enum VK_TYPE_FLAG
+{
+	VK_NONE
+	, VK_2D_BUFFER_TRIANGLE
+	, VK_2D_BUFFER_SQUARE
+	, VK_2D_SPRITE_SQUARE
+	, VK_3D_BUFFER_CUBE
+};
+
+enum SW_TYPE_FLAG
+{
+	SW_NONE
+	, SW_BGM
+	, SW_EFFECT
+};
+
+#endif // ! EWENUM_H__

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{689c8365-5b6c-44fb-b761-e938139a489f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concrete">
+      <UniqueIdentifier>{feb51429-b741-4506-8697-f8589ef17749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{ee8319eb-3991-4736-b532-d2681f3835b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphic.h">
+      <Filter>Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="GV_Struct.h">
+      <Filter>Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="GV_Functor.h">
+      <Filter>Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="GV.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader.frag">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Concrete</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

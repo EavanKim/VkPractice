@@ -1,0 +1,188 @@
+﻿빌드 시작: 11/4/2020 7:35:12 PM
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\LuaTest\LuaTest.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\LuaTest.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /I"C:\VulkanSDK\1.2.131.2\Third-Party\stb-master" /I"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV" /IC:\VulkanSDK\1.2.131.2\Include /IC:\glm /I"C:\glfw-3.3.2.bin.WIN32\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(85,50): warning C4251: 'Graphic_Vulkan::validationLayers': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(71): message : 'std::vector<const char *,std::allocator<const char *>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(143,50): warning C4251: 'Graphic_Vulkan::deviceExtensions': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(71): message : 'std::vector<const char *,std::allocator<const char *>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168,40): warning C4251: 'Graphic_Vulkan::m_SwapChainImages': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(180,48): warning C4251: 'Graphic_Vulkan::m_SwapChainImageViews': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(216,52): warning C4251: 'Graphic_Vulkan::m_SwapChainFramebuffers': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(227,47): warning C4251: 'Graphic_Vulkan::m_CommandBuffers': class 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(227): message : 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(238,53): warning C4251: 'Graphic_Vulkan::m_ImageAvailableSemaphores': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(239,53): warning C4251: 'Graphic_Vulkan::m_RenderFinishedSemaphores': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(240,39): warning C4251: 'Graphic_Vulkan::m_InfFlightFence': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(241,39): warning C4251: 'Graphic_Vulkan::m_ImagesInFlight': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(304,40): warning C4251: 'Graphic_Vulkan::m_UniformBuffers': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(305,52): warning C4251: 'Graphic_Vulkan::m_UniformBuffersMemory': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+     1>C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(309,47): warning C4251: 'Graphic_Vulkan::m_DescriptorSets': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168): message : 'std::vector<VkImage,std::allocator<VkImage>>' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\Debug\LuaTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\Debug" /LIBPATH:C:\VulkanSDK\1.2.131.2\Lib32 /LIBPATH:"C:\glfw-3.3.2.bin.WIN32\lib-vc2019" GV.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\Debug\LuaTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\Debug\LuaTest.lib" /MACHINE:X86 Debug\Main.obj
+         LuaTest.vcxproj -> C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\Debug\LuaTest.exe
+       FinalizeBuildStatus:
+         "Debug\LuaTest.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\LuaTest.tlog\LuaTest.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\LuaTest\LuaTest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+프로젝트 성능 요약:
+     3446ms  C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\LuaTest\LuaTest.vcxproj   1회 호출
+               3446ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  BuildCompile                               1회 호출
+        0ms  _Link                                      1회 호출
+        0ms  AfterLink                                  1회 호출
+        0ms  ComputeLinkSwitches                        1회 호출
+        0ms  PreLinkEvent                               1회 호출
+        0ms  PrepareResourceNames                       1회 호출
+        0ms  CreateCustomManifestResourceNames          1회 호출
+        0ms  SplitResourcesByCulture                    1회 호출
+        0ms  AssignTargetPaths                          1회 호출
+        0ms  ComputeLinkInputsFromProject               1회 호출
+        0ms  ComputeCLGeneratedLinkInputs               1회 호출
+        0ms  _ALink                                     1회 호출
+        0ms  ComputeCLOutputs                           1회 호출
+        0ms  ComputeRCGeneratedLinkInputs               1회 호출
+        0ms  ComputeRCOutputs                           1회 호출
+        0ms  BeforeLink                                 1회 호출
+        0ms  ComputeLegacyManifestEmbedding             1회 호출
+        0ms  _BuildCompileAction                        1회 호출
+        0ms  AfterBuildCompileEvent                     1회 호출
+        0ms  _ResourceCompile                           1회 호출
+        0ms  AfterResourceCompile                       1회 호출
+        0ms  MakeDirsForResourceCompile                 1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
+        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
+        0ms  _ClCompile                                 1회 호출
+        0ms  _Manifest                                  1회 호출
+        0ms  ResolvedXDCMake                            1회 호출
+        0ms  AfterBuild                                 1회 호출
+        0ms  BuildLink                                  1회 호출
+        0ms  _BuildLinkAction                           1회 호출
+        0ms  PostBuildEvent                             1회 호출
+        0ms  PrepareForRun                              1회 호출
+        0ms  CopyFilesToOutputDirectory                 1회 호출
+        0ms  _CopySourceItemsToOutputDirectory          1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
+        0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
+        0ms  RegisterOutput                             1회 호출
+        0ms  _Deploy                                    1회 호출
+        0ms  CreateSatelliteAssemblies                  1회 호출
+        0ms  _GenerateSatelliteAssemblyInputs           1회 호출
+        0ms  ResolvedLinkLib                            1회 호출
+        0ms  MakeDirsForFxc                             1회 호출
+        0ms  SatelliteDllsProjectOutputGroup            1회 호출
+        0ms  _BscMake                                   1회 호출
+        0ms  MakeDirsForBscMake                         1회 호출
+        0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
+        0ms  _XdcMake                                   1회 호출
+        0ms  MakeDirsForXdcMake                         1회 호출
+        0ms  _Appverifier                               1회 호출
+        0ms  AfterClCompile                             1회 호출
+        0ms  Build                                      1회 호출
+        0ms  CheckInstalledVCLibsIPP                    1회 호출
+        0ms  CopyFileToFolders                          1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  AssignProjectConfiguration                 1회 호출
+        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  PreBuildEvent                              1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  SetCABuildNativeEnvironmentVariables       1회 호출
+        0ms  GetResolvedWinMD                           1회 호출
+        0ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  BeforeClCompile                            1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  FixupCLCompileOptions                      1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  BuildGenerateSources                       1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  _Midl                                      1회 호출
+        0ms  AfterMidl                                  1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        1ms  SetTelemetryEnvironmentVariables           1회 호출
+        1ms  BuildLinkTraverse                          1회 호출
+        1ms  ContentFilesProjectOutputGroup             1회 호출
+        1ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
+        1ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        1ms  MakeDirsForLink                            1회 호출
+        1ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
+        1ms  MakeDirsForCl                              1회 호출
+        1ms  _SplitProjectReferencesByFileExistence     1회 호출
+        1ms  IncrementalClean                           1회 호출
+        1ms  ResolveProjectReferences                   1회 호출
+        1ms  GetReferenceAssemblyPaths                  1회 호출
+        1ms  _CheckForCompileOutputs                    1회 호출
+        1ms  BuildGenerateSourcesTraverse               1회 호출
+        1ms  GetCopyToOutputDirectoryItems              1회 호출
+        1ms  DoLinkOutputFilesMatch                     1회 호출
+        1ms  WarnCompileDuplicatedFilename              1회 호출
+        1ms  ComputeManifestInputsTargets               1회 호출
+        1ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+        1ms  _CheckWindowsSDKInstalled                  1회 호출
+        1ms  BuiltProjectOutputGroup                    1회 호출
+        2ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        2ms  CustomBuild                                1회 호출
+        2ms  CreateRecipeFile                           1회 호출
+        4ms  PrepareForBuild                            1회 호출
+        5ms  InitializeBuildStatus                      1회 호출
+        6ms  FinalizeBuildStatus                        1회 호출
+      820ms  Link                                       1회 호출
+     2578ms  ClCompile                                  1회 호출
+
+빌드했습니다.
+
+       "C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\LuaTest\LuaTest.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(85,50): warning C4251: 'Graphic_Vulkan::validationLayers': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(143,50): warning C4251: 'Graphic_Vulkan::deviceExtensions': class 'std::vector<const char *,std::allocator<const char *>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(168,40): warning C4251: 'Graphic_Vulkan::m_SwapChainImages': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(180,48): warning C4251: 'Graphic_Vulkan::m_SwapChainImageViews': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(216,52): warning C4251: 'Graphic_Vulkan::m_SwapChainFramebuffers': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(227,47): warning C4251: 'Graphic_Vulkan::m_CommandBuffers': class 'std::vector<VkCommandBuffer,std::allocator<VkCommandBuffer>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(238,53): warning C4251: 'Graphic_Vulkan::m_ImageAvailableSemaphores': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(239,53): warning C4251: 'Graphic_Vulkan::m_RenderFinishedSemaphores': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(240,39): warning C4251: 'Graphic_Vulkan::m_InfFlightFence': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(241,39): warning C4251: 'Graphic_Vulkan::m_ImagesInFlight': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(304,40): warning C4251: 'Graphic_Vulkan::m_UniformBuffers': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(305,52): warning C4251: 'Graphic_Vulkan::m_UniformBuffersMemory': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+         C:\Users\Eavan\Desktop\1_Vulkan기본스프라이트처리\GV\Graphic.h(309,47): warning C4251: 'Graphic_Vulkan::m_DescriptorSets': class 'std::vector<VkImage,std::allocator<VkImage>>'에서는 class 'Graphic_Vulkan'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+
+    경고 13개
+    오류 0개
+
+경과 시간: 00:00:03.44

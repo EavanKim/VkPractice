@@ -1,0 +1,145 @@
+﻿빌드 시작: 11/4/2020 8:01:29 PM
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>4 노드의 "D:\GitHub\VkPractice\AC\AC.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\AC.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt EW_Obj.h
+         EW_Obj.h
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\VkPractice\x64\Debug\AC.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\GitHub\VkPractice\x64\Debug\AC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\VkPractice\x64\Debug\AC.lib" /MACHINE:X64 /DLL x64\Debug\EW_Obj.obj
+         AC.vcxproj -> D:\GitHub\VkPractice\x64\Debug\AC.dll
+       FinalizeBuildStatus:
+         "x64\Debug\AC.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\AC.tlog\AC.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\GitHub\VkPractice\AC\AC.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+프로젝트 성능 요약:
+     2861ms  D:\GitHub\VkPractice\AC\AC.vcxproj         1회 호출
+               2861ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  BuildCompile                               1회 호출
+        0ms  _Manifest                                  1회 호출
+        0ms  _ALink                                     1회 호출
+        0ms  _Link                                      1회 호출
+        0ms  AfterLink                                  1회 호출
+        0ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        0ms  PreLinkEvent                               1회 호출
+        0ms  PrepareResourceNames                       1회 호출
+        0ms  CreateCustomManifestResourceNames          1회 호출
+        0ms  AssignTargetPaths                          1회 호출
+        0ms  ComputeManifestInputsTargets               1회 호출
+        0ms  RegisterOutput                             1회 호출
+        0ms  ComputeLinkInputsFromProject               1회 호출
+        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
+        0ms  ComputeRCGeneratedLinkInputs               1회 호출
+        0ms  ComputeRCOutputs                           1회 호출
+        0ms  BeforeLink                                 1회 호출
+        0ms  ComputeLegacyManifestEmbedding             1회 호출
+        0ms  _BuildCompileAction                        1회 호출
+        0ms  AfterBuildCompileEvent                     1회 호출
+        0ms  _ResourceCompile                           1회 호출
+        0ms  AfterResourceCompile                       1회 호출
+        0ms  MakeDirsForResourceCompile                 1회 호출
+        0ms  ComputeCLGeneratedLinkInputs               1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
+        0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
+        0ms  _XdcMake                                   1회 호출
+        0ms  IncrementalClean                           1회 호출
+        0ms  AfterBuild                                 1회 호출
+        0ms  BuildLink                                  1회 호출
+        0ms  _BuildLinkAction                           1회 호출
+        0ms  PostBuildEvent                             1회 호출
+        0ms  PrepareForRun                              1회 호출
+        0ms  CopyFilesToOutputDirectory                 1회 호출
+        0ms  _CheckForCompileOutputs                    1회 호출
+        0ms  _CopySourceItemsToOutputDirectory          1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
+        0ms  MakeDirsForXdcMake                         1회 호출
+        0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
+        0ms  _Appverifier                               1회 호출
+        0ms  CreateSatelliteAssemblies                  1회 호출
+        0ms  _GenerateSatelliteAssemblyInputs           1회 호출
+        0ms  ResolvedLinkLib                            1회 호출
+        0ms  ContentFilesProjectOutputGroup             1회 호출
+        0ms  MakeDirsForFxc                             1회 호출
+        0ms  BuiltProjectOutputGroup                    1회 호출
+        0ms  _BscMake                                   1회 호출
+        0ms  MakeDirsForBscMake                         1회 호출
+        0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
+        0ms  _Deploy                                    1회 호출
+        0ms  _ClCompile                                 1회 호출
+        0ms  Build                                      1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  CopyFileToFolders                          1회 호출
+        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  AfterClCompile                             1회 호출
+        0ms  PreBuildEvent                              1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  BuildGenerateSourcesTraverse               1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  _CheckWindowsSDKInstalled                  1회 호출
+        0ms  GetResolvedWinMD                           1회 호출
+        0ms  GetReferenceAssemblyPaths                  1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  BeforeClCompile                            1회 호출
+        0ms  BuildGenerateSources                       1회 호출
+        0ms  AfterMidl                                  1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  _Midl                                      1회 호출
+        0ms  CheckInstalledVCLibsIPP                    1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        1ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        1ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        1ms  MakeDirsForMidl                            1회 호출
+        1ms  DoLinkOutputFilesMatch                     1회 호출
+        1ms  ComputeCLOutputs                           1회 호출
+        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  SatelliteDllsProjectOutputGroup            1회 호출
+        1ms  SetCABuildNativeEnvironmentVariables       1회 호출
+        1ms  GetFrameworkPaths                          1회 호출
+        1ms  ResolvedXDCMake                            1회 호출
+        1ms  FixupCLCompileOptions                      1회 호출
+        1ms  SplitResourcesByCulture                    1회 호출
+        1ms  _SplitProjectReferencesByFileExistence     1회 호출
+        1ms  BuildLinkTraverse                          1회 호출
+        1ms  MakeDirsForLink                            1회 호출
+        1ms  GetCopyToOutputDirectoryItems              1회 호출
+        1ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
+        2ms  AssignProjectConfiguration                 1회 호출
+        2ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
+        2ms  FinalizeBuildStatus                        1회 호출
+        2ms  ComputeLinkSwitches                        1회 호출
+        3ms  WarnCompileDuplicatedFilename              1회 호출
+        4ms  MakeDirsForCl                              1회 호출
+        5ms  CustomBuild                                1회 호출
+        6ms  CreateRecipeFile                           1회 호출
+        9ms  SetTelemetryEnvironmentVariables           1회 호출
+       10ms  InitializeBuildStatus                      1회 호출
+       19ms  ResolveProjectReferences                   1회 호출
+       24ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+       25ms  PrepareForBuild                            1회 호출
+      586ms  ClCompile                                  1회 호출
+     2140ms  Link                                       1회 호출
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:02.85
